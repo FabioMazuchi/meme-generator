@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+}
+
+header {
+  background-color: rgb(31, 15, 46);
+  padding: 5px 0;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.inputs {
+  margin: 40px auto;
+  width: 50%;
+  text-align: center;
+}
+
+input[type='text'] {
+  width: 45%;
+  padding: 4px 0 4px 8px;
+  margin-right: 15px;
+}
+
+#meme-image-container {
+  width: 40%;
+  height: 300px;
+  margin: auto;
+  border: 1px solid black;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+#meme-image-container div {
+  font-size: 30px;
+  font-weight: 600;
+  text-shadow: black 5px 5px 5px;
+  color: white;
+  position: absolute;
+  top: 180px;
+  z-index: 999;
+  margin-left: 10px;
+}
+
+.fire {
+  border: 3px dashed red !important;
+}
+
+.water {
+  background-color: blue;
+  border: 5px double blue !important;
+}
+
+.earth {
+  background-color: green;
+  border: 6px groove green !important;
+}
+
+button {
+  width: 70px;
+  padding: 4px 8px;
+  border: 0;
+  border-radius: 4px;
+  margin-right: 5px;
+  font-size: 17px;
+  color: white;
+}
+
+#fire {
+  background-color: red;
+}
+
+#water {
+  background-color: blue;
+}
+
+#earth {
+  background-color: green;
+}
+
+.botoes {
+  width: 50%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.memes {
+  width: 50%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.memes img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+}
