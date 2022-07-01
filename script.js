@@ -7,6 +7,7 @@ const waterBtn = document.querySelector('#water');
 const earthBtn = document.querySelector('#earth');
 const memesDiv = document.querySelector('.memes');
 
+
 const loadFile = function (event) {
   const image = document.getElementById('meme-image');
   image.removeAttribute('src');

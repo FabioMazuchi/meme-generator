@@ -18,21 +18,10 @@
       <h1>Gerador de Memes</h1>
     </header>
     <div class="inputs">
-      <input
-        maxlength="60"
-        type="text"
-        id="text-input"
-        placeholder="Digite a frase aqui..."
-      />
+      <input maxlength="60" type="text" id="text-input" placeholder="Digite a frase aqui..."/>
       <label for="meme-insert">Carregar Arquivo</label>
-      <input
-        onchange="loadFile(event)"
-        type="file"
-        accept="image/gif, image/jpeg, image/png"
-        id="meme-insert"
-      />
-    </div>
-    <!--inputs-->
+      <input onchange="loadFile(event)" type="file" accept="image/gif, image/jpeg, image/png" id="meme-insert"/>
+    </div><!--inputs-->
     <div id="meme-image-container">
       <img id="meme-image" />
       <div id="meme-text"></div>
