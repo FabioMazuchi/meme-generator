@@ -6,39 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@400;600&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="style.css" />
-    <title>Fabio Augusto Mazuchi</title>
+    <title>Meme Generator</title>
   </head>
-  <body id="pai">
+
+  <body>
     <header>
       <h1>Gerador de Memes</h1>
     </header>
     <div class="inputs">
-      <input maxlength="60" type="text" id="text-input" placeholder="Digite a frase aqui..."/>
-      <label for="meme-insert">Carregar Arquivo</label>
-      <input onchange="loadFile(event)" type="file" accept="image/gif, image/jpeg, image/png" id="meme-insert"/>
+      <div class="center">
+        <input maxlength="60" type="text" id="text-input" placeholder="Digite a frase aqui..."/>
+        <label for="meme-insert">Carregar Arquivo</label>
+        <input onchange="loadFile(event)" type="file" accept="image/gif, image/jpeg, image/png" id="meme-insert"/>
+      </div>
     </div><!--inputs-->
     <div id="meme-image-container">
       <img id="meme-image" />
       <div id="meme-text"></div>
     </div>
     <div class="config">
-      <div class="botoes config-sinle">
-        <h2>temas</h2>
-        <button id="fire">Fire</button>
-        <button id="water">Water</button>
-        <button id="earth">Earth</button>
-      </div>
-      <div class="memes config-sinle">
-        <h2>Memes</h2>
-        <img id="meme-1" src="imgs/meme1.png" alt="Meme 1" />
-        <img id="meme-2" src="imgs/meme2.png" alt="Meme 2" />
-        <img id="meme-3" src="imgs/meme3.png" alt="Meme 3" />
-        <img id="meme-4" src="imgs/meme4.png" alt="Meme 4" />
+      <div class="center">
+        <div class="botoes config-sinle">
+          <h2>Bordas</h2>
+          <div>
+            <button id="fire">Fire</button>
+            <button id="water">Water</button>
+            <button id="earth">Earth</button>
+          </div>
+        </div>
+        <div class="memes config-sinle">
+          <h2>Imagens</h2>
+          <div>
+            <img id="meme-1" src="imgs/meme1.png" alt="Meme 1" />
+            <img id="meme-2" src="imgs/meme2.png" alt="Meme 2" />
+            <img id="meme-3" src="imgs/meme3.png" alt="Meme 3" />
+            <img id="meme-4" src="imgs/meme4.png" alt="Meme 4" />
+          </div>
+        </div>
       </div>
     </div>
 
